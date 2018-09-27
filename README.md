@@ -47,6 +47,7 @@ This provides a tremendous time saving comparing to monolithic systems.
 
 ## Technology stack
 ![Abixen Platform Microservices Technology Stack](documentation-image/abixen-platform-microservices-technology-stack.png "Abixen Platform Microservices Technology Stack")
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fevectis%2Fabixen-platform.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fevectis%2Fabixen-platform?ref=badge_shield)
 
 ## Architecture overview
 One of the biggest advantage is the architecture based on microservices concept. 
@@ -153,3 +154,6 @@ This library is distributed in the hope that it will be useful, but WITHOUT
 ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
 details.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fevectis%2Fabixen-platform.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fevectis%2Fabixen-platform?ref=badge_large)
