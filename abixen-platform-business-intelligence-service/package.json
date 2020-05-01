@@ -32,15 +32,19 @@
     "gulp-util": "^3.0.4",
     "gulp-webserver": "~0.9.1",
     "gulp-ignore": "~2.0.2",
-    "gulp-angular-templatecache": "^2.0.0"
+    "gulp-angular-templatecache": "^2.0.0",
+    "snyk": "^1.316.1"
   },
   "config": {
     "registry": "http://registry.npmjs.org/"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "jscs": "^2.11.0"
-  }
+  },
+  "snyk": true
 }
