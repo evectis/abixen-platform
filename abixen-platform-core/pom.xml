@@ -21,19 +21,19 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <abixen-platform-common.version>1.0-SNAPSHOT</abixen-platform-common.version>
-        <postgresql.version>9.3-1102-jdbc4</postgresql.version>
+        <postgresql.version>42.2.13</postgresql.version>
         <spring-session.version>1.2.2.RELEASE</spring-session.version>
         <spring.cloud.contract.version>1.1.3.RELEASE</spring.cloud.contract.version>
         <start-class>com.abixen.platform.core.CoreApplication</start-class>
         <docker.plugin.version>0.4.13</docker.plugin.version>
         <docker.image.prefix>abixen</docker.image.prefix>
-        <log4j2.version>2.5</log4j2.version>
+        <log4j2.version>2.13.2</log4j2.version>
         <spock.version>1.1-groovy-2.4</spock.version>
         <cglib.version>3.2.5</cglib.version>
         <gmavenplus.version>1.5</gmavenplus.version>
         <maven.failsafe.version>2.18.1</maven.failsafe.version>
         <maven.surefire.version>2.20</maven.surefire.version>
-        <liquibase.version>3.5.3</liquibase.version>
+        <liquibase.version>3.8.1</liquibase.version>
     </properties>
 
     <dependencyManagement>
