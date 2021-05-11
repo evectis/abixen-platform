@@ -17,7 +17,7 @@
     "merge-stream": "^1.0.0",
     "run-sequence": "^1.1.5",
     "fs": "0.0.2",
-    "gulp-bower": "0.0.10",
+    "gulp-bower": "0.0.11",
     "gulp-bump": "^0.3.0",
     "gulp-concat": "^2.5.2",
     "gulp-merge": "^0.1.0",
@@ -32,15 +32,19 @@
     "gulp-util": "^3.0.4",
     "gulp-webserver": "~0.9.1",
     "gulp-ignore": "~2.0.2",
-    "gulp-angular-templatecache": "^2.0.0"
+    "gulp-angular-templatecache": "^2.0.0",
+    "snyk": "^1.590.0"
   },
   "config": {
     "registry": "http://registry.npmjs.org/"
   },
   "scripts": {
-    "postinstall": "bower install"
+    "postinstall": "bower install",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "jscs": "^2.11.0"
-  }
+  },
+  "snyk": true
 }
