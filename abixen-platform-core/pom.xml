@@ -28,12 +28,12 @@
         <docker.plugin.version>0.4.13</docker.plugin.version>
         <docker.image.prefix>abixen</docker.image.prefix>
         <log4j2.version>2.5</log4j2.version>
-        <spock.version>1.1-groovy-2.4</spock.version>
+        <spock.version>2.0-groovy-2.5</spock.version>
         <cglib.version>3.2.5</cglib.version>
         <gmavenplus.version>1.5</gmavenplus.version>
         <maven.failsafe.version>2.18.1</maven.failsafe.version>
         <maven.surefire.version>2.20</maven.surefire.version>
-        <liquibase.version>3.5.3</liquibase.version>
+        <liquibase.version>3.8.1</liquibase.version>
     </properties>
 
     <dependencyManagement>
@@ -161,7 +161,7 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-acl</artifactId>
-            <version>3.2.7.RELEASE</version>
+            <version>4.0.1.RELEASE</version>
         </dependency>
 
         <dependency>
@@ -228,7 +228,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.4</version>
+            <version>2.7</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
