@@ -28,7 +28,7 @@
         <docker.plugin.version>0.4.13</docker.plugin.version>
         <docker.image.prefix>abixen</docker.image.prefix>
         <log4j2.version>2.5</log4j2.version>
-        <spock.version>1.1-groovy-2.4</spock.version>
+        <spock.version>2.0-groovy-2.5</spock.version>
         <cglib.version>3.2.5</cglib.version>
         <gmavenplus.version>1.5</gmavenplus.version>
         <maven.failsafe.version>2.18.1</maven.failsafe.version>
